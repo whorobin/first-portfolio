@@ -5,12 +5,16 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 35px;
+}
 .firstl{
     color: #ff6348;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 80px;
+    
 }
 .half-width{
     width: 50%;
@@ -41,4 +45,36 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     
+}
+
+
+.experiences-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+}
+.experiences-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 5px 40px black;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+#stack-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(#ff6348, purple);
+    border-image-slice: 1;
+}
+
+
+footer{
+    text-align: center;
 }
